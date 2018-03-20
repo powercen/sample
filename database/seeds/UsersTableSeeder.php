@@ -20,7 +20,8 @@ class UsersTableSeeder extends Seeder
             'name' => 'BruceLee',
             'email' => '3565645@qq.com',
             'password' => bcrypt('123456'),
-            'is_admin' => true
+            'is_admin' => true,
+            'activated' => true,
         ]);
 
     }
